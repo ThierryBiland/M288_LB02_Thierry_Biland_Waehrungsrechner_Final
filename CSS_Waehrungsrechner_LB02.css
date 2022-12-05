@@ -2,3 +2,25 @@
     font-family: "TheSans Swisscom Light";
     color: black;
 }
+
+body {
+    background-color: antiquewhite;
+}
+
+.Rechner {
+    background-color: antiquewhite;
+    padding: 100px;
+    align-content: center;
+}
+
+.wahlbox {
+    color: white;
+    margin: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 20pt;
+    margin-left: 40px;
+}
