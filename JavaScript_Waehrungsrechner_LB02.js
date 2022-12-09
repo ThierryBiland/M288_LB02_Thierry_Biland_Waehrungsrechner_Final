@@ -8,3 +8,7 @@ fetch("https://api.frankfurter.app/currencies")
     .then((data) => {
         (data);
 });
+
+function display(data) {
+
+}
