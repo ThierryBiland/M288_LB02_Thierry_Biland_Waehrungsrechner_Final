@@ -4,4 +4,7 @@ const ergebnisbox = document.getElementById("ergebnisbox")
 const button = document.getElementById("button")
 
 fetch("https://api.frankfurter.app/currencies")
-    .then(data) => data.json)
+    .then((data) => data.json())
+    .then((data) => {
+        (data);
+});
