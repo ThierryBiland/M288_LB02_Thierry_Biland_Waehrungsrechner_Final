@@ -10,5 +10,6 @@ fetch("https://api.frankfurter.app/currencies")
 });
 
 function display(data) {
-
+    const entries = Object.entries(data);
+    for (const i = 0; i < entries.lenght; i++)
 }
