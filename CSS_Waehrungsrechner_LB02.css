@@ -40,4 +40,14 @@ button {
     padding-bottom: 5px;
 }
 
-.an
+.antwortbox {
+    margin: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.währung {
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
