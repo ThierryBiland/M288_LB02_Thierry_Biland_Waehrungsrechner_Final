@@ -11,8 +11,12 @@ fetch("https://api.frankfurter.app/currencies")
 
 function display(data) {
     const entries = Object.entries(data);
-    for (var i = 0; i < entries.lenght; i++)
-        währung[0].innerHTML += `<option value="${entries[i][0]">${entries[i][0]}</option>`;
-        währung[1].innerHTML += `<option value="${entries[i][0]">${entries[i][0]}</option>`;
+    for (var i = 0; i < entries.lenght; i++) {
+        währung[0].innerHTML += `<option value="${entries[i][0]}">${entries[i][0]}</option>`;
+        währung[1].innerHTML += `<option value="${entries[i][0]}">${entries[i][0]}</option>`;
     }
+}
 
+button.addEventListener("click"  , () => {
+    let currency1 = währung[0].value;
+}
