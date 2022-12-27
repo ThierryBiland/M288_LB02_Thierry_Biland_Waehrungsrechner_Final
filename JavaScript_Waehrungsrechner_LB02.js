@@ -32,5 +32,9 @@ function convert(currency1, currency2, value) {
     fetch(
         `https://${host}/latest?amount=${value}&from=${currency1}&to=${currency2}`
     )
-        .then()
+        .then((val) => val.json())
+        .then ((val) => {
+            console.log(Object.values(val.rates)[0]);
+            ergebnisbox.value = Object.values(val.rates)[0];
+        })
 }
