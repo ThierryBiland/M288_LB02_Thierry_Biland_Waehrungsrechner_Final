@@ -19,4 +19,8 @@ function display(data) {
 
 button.addEventListener("click"  , () => {
     let currency1 = währung[0].value;
+    let currency2 = währung[1].value;
+    let value = zahlenbox.value;
+
+    if (currency1 <= currency2)
 }
