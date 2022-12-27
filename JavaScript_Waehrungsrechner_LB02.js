@@ -22,5 +22,11 @@ button.addEventListener("click"  , () => {
     let currency2 = währung[1].value;
     let value = zahlenbox.value;
 
-    if (currency1 <= currency2)
+    if (currency1 != currency2) {
+        convert(currency1, currency2, value);
+    }
+});
+
+function convert(currency1, currency2, value) {
+    const host =
 }
