@@ -31,6 +31,6 @@ function convert(currency1, currency2, value) {
     const host = "api.frankfurter.app";
     fetch(
         `https://${host}/latest?amount=${value}&from=${currency1}&to=${currency2}`
-
     )
+        .then()
 }
