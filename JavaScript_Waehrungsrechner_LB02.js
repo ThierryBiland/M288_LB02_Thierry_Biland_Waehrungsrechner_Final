@@ -6,7 +6,7 @@ const button = document.getElementById("button")
 fetch("https://api.frankfurter.app/currencies")
     .then((data) => data.json())
     .then((data) => {
-        (data);
+        display(data);
 });
 
 function display(data) {
