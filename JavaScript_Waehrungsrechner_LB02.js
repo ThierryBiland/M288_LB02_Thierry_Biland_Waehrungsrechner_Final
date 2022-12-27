@@ -28,5 +28,8 @@ button.addEventListener("click"  , () => {
 });
 
 function convert(currency1, currency2, value) {
-    const host =
+    const host = "api.frankfurter.app";
+    fetch(
+
+    )
 }
